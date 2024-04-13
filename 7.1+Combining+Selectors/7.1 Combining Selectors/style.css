@@ -4,7 +4,23 @@
 h1, h2 {
     color:blueviolet
 }
+
 /*Child CSS Selector*/
 .box > p {
     color: firebrick;
+}
+
+/* Descendant CSS Selector */
+.box li {
+    color: blue;
+}
+
+/* Chaining CSS Selector*/
+li.done {
+    color: seagreen;
+}
+
+/*Combining Combiners*/
+ul p.done {
+    font-size: 0.5rem;
 }
